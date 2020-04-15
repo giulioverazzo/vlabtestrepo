@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    {
+      "id": "input_file_1",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "The file to which we want to append the timestamp",
+      "name": "Input file",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "data/input.txt"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "output_file",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "The file with timestamp added",
+      "name": "Output file",
+      "valueSchema": "url",
+      "target": "data/output.txt"
+    }
+  ]
+}

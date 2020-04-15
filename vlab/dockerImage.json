@@ -1,0 +1,8 @@
+{
+  "image": "gverazzo/timestamp-appender",
+  "privateimage": false,
+  "container": {
+    "entryPoint": ["/bin/bash", "-c"],
+    "command": ["python append-timestamp.py data/input.txt"]
+  }
+}

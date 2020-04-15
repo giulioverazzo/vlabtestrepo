@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    {
+      "repoPath": "source/append-timestamp.py",
+      "targetPath": "append-timestamp.py",
+      "pathType": "FILE"
+    }
+  ]
+}
