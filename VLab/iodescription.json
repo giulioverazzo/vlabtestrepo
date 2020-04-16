@@ -9,7 +9,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "data/input.txt"
+      "target": "input.txt"
     }
   ],
   "outputs": [
@@ -20,7 +20,7 @@
       "description": "The file with timestamp added",
       "name": "Output file",
       "valueSchema": "url",
-      "target": "data/output.txt"
+      "target": "output.txt"
     }
   ]
 }
